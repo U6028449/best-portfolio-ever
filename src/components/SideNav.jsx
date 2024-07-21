@@ -37,20 +37,20 @@ export const SideNav = () => {
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover":scale-110 cursor-pointer hover:scale-110 ease-in duration-200'
                 >
                 <GrProjects size={20} />
-                <span className='pl-4'>Projects</span>
+                <span className='pl-4'>work</span>
                 </a>
 
                <a
-               href='#main'
+               href='#project'
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover":scale-110 cursor-pointer hover:scale-110 ease-in duration-200'
                 >
                 <AiOutlineProject size={20} />
-                <span className='pl-4'>contact</span>
+                <span className='pl-4'>projects</span>
                 </a>
 
                 
                <a
-               href='#main'
+               href='#resume'
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover":scale-110 cursor-pointer hover:scale-110 ease-in duration-200'
                 >
                 <BsPerson size={20} />
@@ -58,7 +58,7 @@ export const SideNav = () => {
                 </a>
 
                 <a
-               href='#main'
+               href='#contact'
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover":scale-110 cursor-pointer hover:scale-110 ease-in duration-200'
                 >
                 <AiOutlineMail size={20} />
@@ -74,6 +74,18 @@ export const SideNav = () => {
           <div className='flex flex-col'>
             <a href='#main' className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
               <AiOutlineHome size={20} />
+            </a>
+            <a href='#work' className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <GrProjects size={20} />
+            </a>
+            <a href='#projects' className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <AiOutlineProject size={20} />
+            </a>
+            <a href='#resume' className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <BsPerson size={20} />
+            </a>
+            <a href='#contact' className='rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <AiOutlineMail size={20} />
             </a>
           </div>
         </div>
