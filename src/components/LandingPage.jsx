@@ -3,7 +3,7 @@ import raceTrackerImage from '../assets/racetracker_1755512_464290.jpg'
 import { TypeAnimation } from 'react-type-animation'
 import { FaTwitter, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 
-const Main = () => {
+const LandingPage = () => {
   return (
       <div id='main' className='relative h-screen'>
     <img
@@ -18,7 +18,7 @@ const Main = () => {
         <TypeAnimation
             sequence={[
                 'Full Stack Web Developer',
-                3000, // Delay in milliseconds   
+                7000, // Delay in milliseconds   
             ]}
             wrapper="div"
             speed={50}
@@ -26,15 +26,15 @@ const Main = () => {
             repeat={Infinity}
         />
     </h2>
-    <div className='flex'>
-        <FaTwitter className='cursor-pointer'style={{ color: 'gold'}} size={20} />
-        <FaGithub className='cursor-pointer'style={{ color: 'gold'}} size={20} />
-        <FaLinkedin className='cursor-pointer'style={{ color: 'gold'}} size={20} />
-        <FaInstagram className='cursor-pointer'style={{ color: 'gold'}} size={20} />
+    <div className='flex mt-2 gap-2'>
+        <FaTwitter className='cursor-pointer'style={{ color: 'gold'}} size={36} />
+        <FaGithub className='cursor-pointer'style={{ color: 'gold'}} size={36} />
+        <FaLinkedin className='cursor-pointer'style={{ color: 'gold'}} size={36} />
+        <FaInstagram className='cursor-pointer'style={{ color: 'gold'}} size={36} />
     </div>
 </div>
 </div>
   )
 }
 
-export default Main
+export default LandingPage
