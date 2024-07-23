@@ -5,12 +5,14 @@ import AboutMe from './components/AboutMe'
 import Project from './components/Project'
 import Resume from './components/Resume'
 import { Outlet } from 'react-router-dom'
+import Footer from './components/Footer'
 
 function App() {
   return (
       <div >
         <SideNav />
         <Outlet />
+        <Footer />
         {/* <Main />
         <AboutMe />
         <Project />

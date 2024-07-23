@@ -7,7 +7,9 @@ import AboutMe from './components/AboutMe.jsx'
 import Project from './components/Project.jsx'
 import Resume from './components/Resume.jsx'
 import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
 import { RouterProvider } from 'react-router'
+
 
 import { createBrowserRouter } from 'react-router-dom'
 
@@ -35,6 +37,9 @@ import { createBrowserRouter } from 'react-router-dom'
       {
         path: 'contact',
         element: <Contact />
+      },
+      { path: 'footer',
+        element: <Footer />
       }
     ]
   }

@@ -18,7 +18,9 @@ const LandingPage = () => {
         <TypeAnimation
             sequence={[
                 'Full Stack Web Developer',
-                7000, // Delay in milliseconds   
+                7000, // Delay in milliseconds 
+                'Software Engineer',
+                5000,  
             ]}
             wrapper="div"
             speed={50}

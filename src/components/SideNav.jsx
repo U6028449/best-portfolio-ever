@@ -12,7 +12,7 @@ export const SideNav = () => {
 
   const [nav, setNav] = useState(false)
   const handleNav = () => {
-    setNav(!nav);
+    setNav(nav =>!nav);
     console.log('state changed')
   }
 
@@ -33,7 +33,6 @@ export const SideNav = () => {
                </Link>
             
                <Link
-              //  href='#About Me'
                to='/about-me'
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover":scale-110 cursor-pointer hover:scale-110 ease-in duration-200'
                 >
@@ -42,7 +41,6 @@ export const SideNav = () => {
                 </Link>
 
                <Link
-              //  href='#Project'
                to='/project'
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover":scale-110 cursor-pointer hover:scale-110 ease-in duration-200'
                 >
@@ -50,9 +48,7 @@ export const SideNav = () => {
                 <span className='pl-4'>Projects</span>
                 </Link>
 
-                
                <Link
-              //  href='#resume'
                to='/resume'
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover":scale-110 cursor-pointer hover:scale-110 ease-in duration-200'
                 >
@@ -61,7 +57,6 @@ export const SideNav = () => {
                 </Link>
 
                 <Link
-              //  href='#contact'
                to='/contact'
                 className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-grey-100 shadow-grey-400 m-2 p-4 cursor-pointer hover":scale-110 cursor-pointer hover:scale-110 ease-in duration-200'
                 >
