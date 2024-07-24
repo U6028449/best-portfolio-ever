@@ -13,9 +13,9 @@ const Resume = () => {
         <h1 className="text-2xl font-bold text-white">Resume</h1>
         <p className="mt-4 text-white">My resume is currently under construction. Please feel free to download my Joint Service Transcript.</p>
         <div className="mt-6">
-          {/* <a href="mailto:patrick.granger@gmail.com" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Contact Me
-          </a> */}
+           {/* <a href="mailto:patrick.granger@gmail.com" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">  */}
+            {/* Contact Me */}
+          {/* </a>  */}
           {/* PDF Download Button */}
           <a href={resumePDF} download className="ml-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
             Download Joint Service Transcript
