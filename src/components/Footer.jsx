@@ -7,7 +7,9 @@ const Footer = () => {
         <a href="https://github.com/U6028449" target="_blank" rel="noopener noreferrer">
           <FaGithub className='cursor-pointer' style={{ color: 'gold'}} size={36} />
         </a>
-        <FaLinkedin className='cursor-pointer' style={{ color: 'gold'}} size={36} />
+        <a href="https://www.linkedin.com/in/patrick-granger-9264807/" target="_blank" rel="noopener noreferrer">
+        <FaLinkedin className='cursor-pointer'style={{ color: 'gold'}} size={36} />
+        </a>
         <FaInstagram className='cursor-pointer' style={{ color: 'gold'}} size={36} />
     </div>
   )
